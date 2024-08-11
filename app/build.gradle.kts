@@ -41,6 +41,13 @@ dependencies {
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
 
-    //using for circle image views
+    // Using for circle image views
     implementation("de.hdodenhof:circleimageview:3.1.0")
+    implementation("com.github.bumptech.glide:glide:4.12.0")
+    annotationProcessor("com.github.bumptech.glide:compiler:4.12.0")
+
+    // AutoImageslider dependency
+    implementation("com.github.denzcoskun:ImageSlideshow:0.1.0")
+
 }
+
